@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - WrapKart</title>
+    <link rel="stylesheet" href="Smart.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <nav>
+        <ul type="none">
+            <div class="logo"><a href="home.html">WrapKart</a></div>
+            <input class="search" type="text" placeholder="Search here">
+            <li class="bar"><a href="cart.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            <li class="bar"><a href="#contact.html">Contact Us</a></li>
+            <li class="bar"><a href="about.html">About Us</a></li>
+            <li class="bar"><a href="product.html">Product</a></li>
+            <li class="bar"><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    <h2>Smartphones & Accessories</h2>
+    <div class="productt">
+        <div class="smartt">
+            <img src="s24.avif" alt="iPhone 15 Pro Max">
+            <h2>iPhone 15 Pro Max</h2>
+            <p><strong>Price:</strong> $1,099.99</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Size: 6.7-inch Super Retina XDR Display</li>
+                <li>Color: Space Black, Silver, Gold, Deep Purple</li>
+            </ul>
+            <button onclick="addToCart('iPhone 15 Pro Max', 1099.99)">Add to Cart</button>
+        </div>
+        <div class="smartt">
+            <img src="s24.avif" alt="Samsung Galaxy S23 Ultra">
+            <h2>Samsung Galaxy S23 Ultra</h2>
+            <p><strong>Price:</strong> $1,199.99</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Size: 6.8-inch Dynamic AMOLED 2X Display</li>
+                <li>Color: Phantom Black, Cream, Green, Lavender</li>
+            </ul>
+            <button onclick="addToCart('Samsung Galaxy S23 Ultra', 1199.99)">Add to Cart</button>
+        </div>
+        <div class="smartt">
+            <img src="s24.avif" alt="OnePlus 11 5G">
+            <h2>OnePlus 11 5G</h2>
+            <p><strong>Price:</strong> $749.99</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Size: 6.7-inch Fluid AMOLED Display</li>
+                <li>Color: Titan Black, Eternal Green</li>
+            </ul>
+            <button onclick="addToCart('OnePlus 11 5G', 749.99)">Add to Cart</button>
+        </div>
+        <div class="smartt">
+            <img src="s24.avif" alt="Apple MagSafe Charger">
+            <h2>Apple MagSafe Charger</h2>
+            <p><strong>Price:</strong> $39.99</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Size: Compact and Lightweight</li>
+                <li>Color: White</li>
+            </ul>
+            <button onclick="addToCart('Apple MagSafe Charger', 39.99)">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+/* General Styles */
+nav ul {
+    background-color: #ffbd39;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li.bar {
+    float: right;
+}
+
+nav ul li.bar a {
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search {
+    margin-left: 550px;
+    margin-top: 13px;
+    border-radius: 7px;
+    border-color: orange;
+
+}
+
+
+
+.bar a:hover {
+    color: white;
+}
+
+.logo a:hover {
+    color: white;
+}
+/* Hero Section */
+.hero {
+    background: url('deals.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Team Section */
+.team-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    color: #ff9800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 1rem;
+    color: #bbb;
+    text-align: justify;
+    margin: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffbd39;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+/* Buttons */
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff9800;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ffbd39;
+}

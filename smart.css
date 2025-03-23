@@ -1,0 +1,104 @@
+nav ul {
+    background-color: #ffbd39;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li.bar {
+    float: right;
+}
+
+nav ul li.bar a {
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search {
+    margin-left: 550px;
+    margin-top: 13px;
+    border-radius: 7px;
+    border-color: orange;
+
+}
+
+
+
+
+
+.productt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+button {
+    background-color: #2c6b5f; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+button:hover {
+    background-color:#2c6b5f; 
+}
+
+button a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+}
+
+button a:hover {
+    color:black; 
+}
+
+
+.smartt {
+    background: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.smartt img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.smartt:hover {
+    background-color: #cfe7e5;
+    cursor: pointer;
+    border: 2px solid black;
+}
